@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7e79b95b73.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Intro section with dropdown navigation</title>
+</head>
+
+<body>
+    <div class="section">
+        <nav class="navigation">
+            <div class="navigation__logo">
+                <img class="navigation__img" src="./images/logo.svg" alt="logo">
+            </div>
+            <div class="navigation__sidebar">
+                <ul class="navigation__list">
+                    <li id="dropdown3" class="navigation__li">
+                        <a href="#" class="navigation__a">features</a>
+                        <i class="fa-solid fa-angle-down navigation__down dropdown1"></i>
+                        <i class="fa-solid fa-angle-up navigation__up"></i>
+                        <ul class="navigation__list-show nav1">
+                            <li class="navigation__li-show">
+                                <i class="fa-solid fa-clipboard-list fa-xl navigation__clipboard"></i>
+                                <a class="navigation__a-show" href="#">to do list</a>
+                            </li>
+                            <li class="navigation__li-show">
+                                <i class="fa-regular fa-calendar fa-xl navigation__calender"></i>
+                                <a class="navigation__a-show" href="#">calender</a>
+                            </li>
+                            <li class="navigation__li-show">
+                                <i class="fa-regular fa-bell fa-xl navigation__bell"></i>
+                                <a class="navigation__a-show" href="#">reminders</a>
+                            </li>
+                            <li class="navigation__li-show">
+                                <i class="fa-regular fa-clock fa-xl navigation__clock"></i>
+                                <a class="navigation__a-show" href="#">planning</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="dropdown4" class="navigation__li">
+                        <a href="#" class="navigation__a">Company</a>
+                        <i class="fa-solid fa-angle-down navigation__down dropdown2"></i>
+                        <i class="fa-solid fa-angle-up navigation__up "></i>
+                        <ul class="navigation__lists-show nav2">
+                            <li class="navigation__li-show">
+                                <a class="navigation__a-show" href="#">History</a>
+                            </li>
+                            <li class="navigation__li-show">
+                                <a class="navigation__a-show" href="#">Our Team</a>
+                            </li>
+                            <li class="navigation__li-show">
+                                <a class="navigation__a-show" href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navigation__li">
+                        <a href="#" class="navigation__a">Careers</a>
+                    </li>
+                    <li class="navigation__li">
+                        <a href="#" class="navigation__a">About</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navigation__form">
+                <a class="navigation__login" href="#">login</a>
+                <a class="navigation__register" href="#">Register</a>
+            </div>
+            <div>
+                <i id="bars" class="fa-solid fa-bars fa-xl navigation__bars"></i>
+            </div>
+        </nav>
+        <article class="article">
+            <div class="article__left">
+                <div class="article__left-top">
+                    <h1 class="article__h1">Make <br> remote work</h1>
+                    <h1 class="article__h1-mobile">Make remote work</h1>
+                    <div class="article__paragraphy">
+                        Get your team in sync, no matter your location. <br>
+                        Streamline processes, create team rituals, and <br>
+                        watch productivity soar.
+                    </div>
+                    <div class="article__paragraphy-mobile">
+                        Get your team in sync, no matter your <br> location.Streamline processes, create <br> team
+                        rituals, and
+                        watch productivity soar.
+                    </div>
+                    <a class="article__learn" href="#">Learn more</a>
+                </div>
+                <div class="article__left-bottom">
+                    <img class="article__image" src="./images/client-databiz.svg" alt="databiz">
+                    <img class="article__image" src="./images/client-audiophile.svg" alt="audiophile">
+                    <img class="article__image" src="./images/client-meet.svg" alt="meet">
+                    <img class="article__image" src="./images/client-maker.svg" alt="maker">
+                </div>
+            </div>
+            <div class="article__right">
+                <img class="article__hero" src="./images/image-hero-desktop.png" alt="hero">
+            </div>
+        </article>
+        <div class="mobile">
+            <div class="mobile__menü">
+                <div class="mobile__sidebar">
+                    <ul class="mobile__list">
+                        <li id="dropdown3" class="mobile__li">
+                            <a href="#" class="mobile__a">features</a>
+                            <i class="fa-solid fa-angle-down mobile__down dropdown1"></i>
+                            <i class="fa-solid fa-angle-up mobile__up"></i>
+                            <ul class="mobile__list-show nav1">
+                                <li class="mobile__li-show">
+                                    <i class="fa-solid fa-clipboard-list fa-xl mobile__clipboard"></i>
+                                    <a class="mobile__a-show" href="#">to do list</a>
+                                </li>
+                                <li class="mobile__li-show">
+                                    <i class="fa-regular fa-calendar fa-xl mobile__calender"></i>
+                                    <a class="mobile__a-show" href="#">calender</a>
+                                </li>
+                                <li class="mobile__li-show">
+                                    <i class="fa-regular fa-bell fa-xl mobile__bell"></i>
+                                    <a class="mobile__a-show" href="#">reminders</a>
+                                </li>
+                                <li class="mobile__li-show">
+                                    <i class="fa-regular fa-clock fa-xl mobile__clock"></i>
+                                    <a class="mobile__a-show" href="#">planning</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="dropdown4" class="mobile__li">
+                            <a href="#" class="mobile__a">Company</a>
+                            <i class="fa-solid fa-angle-down mobile__down dropdown2"></i>
+                            <i class="fa-solid fa-angle-up mobile__up"></i>
+                            <ul class="mobile__lists-show nav2">
+                                <li class="mobile__li-show">
+                                    <a class="mobile__a-show" href="#">History</a>
+                                </li>
+                                <li class="mobile__li-show">
+                                    <a class="mobile__a-show" href="#">Our Team</a>
+                                </li>
+                                <li class="mobile__li-show">
+                                    <a class="mobile__a-show" href="#">Blog</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mobile__li">
+                            <a href="#" class="mobile__a">Careers</a>
+                        </li>
+                        <li class="mobile__li">
+                            <a href="#" class="mobile__a">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mobile__form">
+                    <a class="mobile__login" href="#">login</a>
+                    <a class="mobile__register" href="#">Register</a>
+                </div>
+            </div>
+            <i id="xmark" class="fa-solid fa-xmark fa-xl mobile__xmark"></i>
+        </div>
+    </div>
+    <script src="scripit.js"></script>
+</body>
+
+</html>
